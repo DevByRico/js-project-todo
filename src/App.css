@@ -1,21 +1,105 @@
-
 .App {
-  font-family: sans-serif;
-  text-align: center;
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  max-width: 600px;
+  margin: auto;
 }
 
-input {
-  padding: 0.5rem;
-  margin-right: 0.5rem;
+.App h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  letter-spacing: 0.05em;
 }
-button {
-  padding: 0.5rem;
+
+form {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
 }
+
+form input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccd0d5;
+  border-radius: 0.5rem 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+form button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0 0.5rem 0.5rem 0;
+  transition: background-color 0.2s ease;
+}
+
+form button:hover {
+  background-color: #3a78c2;
+}
+
 ul {
   list-style: none;
-  padding: 0;
+  width: 100%;
 }
+
 li {
-  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  margin-bottom: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.1s ease;
+}
+
+li:hover {
+  transform: translateY(-2px);
+}
+
+li input[type="checkbox"] {
+  margin-right: 1rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+li span {
+  flex: 1;
+  font-size: 1rem;
+}
+
+li button {
+  border: none;
+  background: transparent;
+  font-size: 1.2rem;
+  color: #e74c3c;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+li button:hover {
+  color: #c0392b;
+}
+
+@media (max-width: 400px) {
+  .App {
+    padding: 1rem;
+  }
+  form input, form button {
+    font-size: 0.9rem;
+  }
+  li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  li button {
+    align-self: flex-end;
+    margin-top: 0.5rem;
+  }
 }

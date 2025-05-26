@@ -1,4 +1,4 @@
-# Ricardo’s Todo App
+# DevByRico’s Todo App
 
 A clean, minimal and responsive Todo application built with React and Zustand for global state management.  
 Track your tasks by adding, toggling complete/incomplete, and removing them.  

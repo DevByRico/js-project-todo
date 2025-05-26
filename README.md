@@ -25,7 +25,7 @@ Check it out here 👉 [https://todo-rn.netlify.app](https://todo-rn.netlify.app
 ## 📂 Project Structure
 
 ```text
-ricardo-todo-zustand/
+devbyrico-todo-zustand/
 ├── public/
 │   └── index.html          # Main HTML file
 └── src/

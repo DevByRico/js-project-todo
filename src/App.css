@@ -103,3 +103,9 @@ li button:hover {
     margin-top: 0.5rem;
   }
 }
+
+/* Added for long word wrapping */
+li span { word-break: break-word; }
+/* Improved button contrast */
+form button { background-color: #2B6CB0; color: #FFFFFF; }
+form button:hover { background-color: #2C5282; }

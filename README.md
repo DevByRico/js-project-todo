@@ -1,21 +1,7 @@
-<<<<<<< HEAD
-# Todo
-## 🚀 Live Demo
-Check it out here 👉 [https://todo-rn.netlify.app](https://todo-rn.netlify.app)
-
-=======
-# DevByRico’s Todo App
-
-A clean, minimal and responsive Todo application built with React and Zustand for global state management.  
-Track your tasks by adding, toggling complete/incomplete, and removing them.  
-
----
-
 ## 🚀 Live Demo
 
 Check it out here 👉 [https://todo-rn.netlify.app](https://todo-rn.netlify.app)
 
----
 
 ## ⚙️ Features
 
@@ -26,7 +12,6 @@ Check it out here 👉 [https://todo-rn.netlify.app](https://todo-rn.netlify.app
 - **Responsive Design**: Works beautifully from mobile (320px) to desktop.
 - **Modern UI**: Soft shadows, smooth hover effects and clean typography.
 
----
 
 ## 📂 Project Structure
 
